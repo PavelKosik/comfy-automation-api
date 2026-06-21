@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Generated images / outputs
+outputs/
+out/
+
+# Model weights & caches (never commit heavy artifacts)
+*.safetensors
+*.ckpt
+*.pth
+*.gguf
+models/
+.cache/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
